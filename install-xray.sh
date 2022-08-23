@@ -350,7 +350,7 @@ WantedBy=multi-user.target
 EOF
 cat > /etc/systemd/system/runn.service <<EOF
 [Unit]
-Description=Mampus-Anjeng
+Description=MULAI
 After=network.target
 
 [Service]
@@ -496,8 +496,10 @@ yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
 yellow "xray/Vmess"
 yellow "xray/Vless"
 yellow "xray/Trojan"
-yellow "xray/Shadowsocks"
 
+sleep 1
+echo -e "[ ${green}ok${NC} ] Install speedtest "
+apt install speedtest-cli
 
 #done
 clear
