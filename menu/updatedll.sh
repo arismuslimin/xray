@@ -2,7 +2,7 @@
 # ==========================================
 cd
 rm -r updatedll
-wget -O updatedll "https://raw.githubusercontent.comarismuslimin/xray/main/menu/updatedll.sh"
+wget -O updatedll "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/updatedll.sh"
 rm -rf updatedll
 
 # hapus
