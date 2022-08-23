@@ -23,6 +23,8 @@ wget -O restart-xray "https://raw.githubusercontent.com/arismuslimin/xray/main/m
 wget -O xmenu "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/xmenu.sh"
 wget -O auto-pointing "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/auto-pointing.sh"
 wget -O cek-port "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/cek-port.sh"
+wget -O backup "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/backup.sh"
+wget -O autobackup "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/autobackup.sh"
 wget -O xmenu "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/xmenu.sh"
 
 #
@@ -36,6 +38,8 @@ chmod +x add-akun
 chmod +x certv2ray
 chmod +x restart-xray
 chmod +x auto-pointing
+chmod +x backup
+chmod +x autobackup
 chmod +x cek-port
 
 cd
