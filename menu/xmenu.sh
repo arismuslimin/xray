@@ -27,7 +27,7 @@ echo "╔═══════════════════════�
 echo "║                     ┃ XRAY XMENU ┃                              ║" 
 echo "╚═════════════════════════════════════════════════════════════════╝"  
 echo "║ 1. Buat Semua Akun XRAY   ┃ 11.CARA POINTING DOMAIN             ║"
-echo "║ 2. Hapus Akun XRAY        ┃ 12.Test Kecepatan Server            ║"
+echo "║ 2. Hapus Akun XRAY        ┃ 12.SPEEDTEST VPS                    ║"
 echo "║ 3. Cek Nama Domain        ┃ 13.Hidupkan Ulang VPS               ║"
 echo "║ 4. Cek IP Publik          ┃ 14.Keluar Dari Menu                 ║"
 echo "║ 5. Update DLL             ┃ 15.Info Script                      ║"
