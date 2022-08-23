@@ -73,7 +73,7 @@ add-domain
 how-pointing
 ;;
 12)
-speedtest
+speedtest-cli
 ;;
 13)
 reboot
