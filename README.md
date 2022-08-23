@@ -1,5 +1,4 @@
 <p align="center">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaRI4qjg2Sg8J5kfQjilLYlMMu737QVD3caA&usqp=CAU?color=%2336BCF7&center=true&vCenter=true&lines=SCRIPT+XRAY+MULTI" />
 </p>
 
 # XRAY MULTIPORT
