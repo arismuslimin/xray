@@ -41,18 +41,21 @@ echo "==========================================================================
 echo "" | tee -a log-install.txt
 echo "----------------------------------------------------------------------------" | tee -a log-install.txt
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"  | tee -a log-install.txt
-echo -e "    SCRIPT MANTAP-XRAY Multi Port"  | tee -a log-install.txt
+echo -e "    SCRIPT XRAY Multi Port"  | tee -a log-install.txt
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - Nginx                      : 89"  | tee -a log-install.txt
 echo "   - XRAYS TROJAN WS TLS        : 443"  | tee -a log-install.txt
+echo "   - XRAYS SHADOWSOCKS WS TLS   : 443"  | tee -a log-install.txt
 echo "   - XRAYS VLESS WS TLS         : 443"  | tee -a log-install.txt
 echo "   - XRAYS VMESS WS TLS         : 443"  | tee -a log-install.txt
 echo "   - XRAYS TROJAN WS HTTP       : 80"  | tee -a log-install.txt
+echo "   - XRAYS SHADOWSOCKS WS HTTP  : 80"  | tee -a log-install.txt
 echo "   - XRAYS VLESS WS HTTP        : 80"  | tee -a log-install.txt
 echo "   - XRAYS VMESS WS HTTP        : 80"  | tee -a log-install.txt
 echo "   - XRAYS TROJAN GRPC          : 443"  | tee -a log-install.txt
+echo "   - XRAYS SHADOWSOCKS GRPC     : 443"  | tee -a log-install.txt
 echo "   - XRAYS VMESS GRPC           : 443"  | tee -a log-install.txt
 echo "   - XRAYS VLESS GRPC           : 443"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
@@ -78,4 +81,3 @@ rm -rf updatedll.sh
 rm -rf setup.sh
 rm -rf install-xray.sh
 rm -rf install-tools.sh
-
