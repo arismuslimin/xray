@@ -21,6 +21,7 @@ wget -O certv2ray "https://raw.githubusercontent.com/arismuslimin/xray/main/menu
 wget -O restart-xray "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/restart-xray.sh"
 wget -O auto-pointing "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/auto-pointing.sh"
 wget -O cek-port "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/cek-port.sh"
+wget -O speedtest-cli "https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py"
 wget -O backup "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/backup.sh"
 wget -O autobackup "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/autobackup.sh"
 wget -O restore "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/restore.sh"
@@ -35,6 +36,7 @@ chmod +x updatedll
 chmod +x certv2ray
 chmod +x restart-xray
 chmod +x auto-pointing
+chmod +x speedtest-cli
 chmod +x backup
 chmod +x autobackup
 chmod +x restore
