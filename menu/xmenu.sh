@@ -18,13 +18,13 @@ fi
 echo -e "IP-VPS          :  $IPVPS"
 echo -e "ISP-VPS         :  $ISPVPS"
 echo "╔═════════════════════════════════════════════════════════════════╗"
-echo "║                     ┃ Script By SL ┃                                       ║" 
+echo "║                     ┃ Script By Aris ┃                          ║" 
 echo "╚═════════════════════════════════════════════════════════════════╝"
 echo "╔═════════════════════════════════════════════════════════════════╗"
-echo "║ ┃ Link Script ┃  ┃ https://github.com/fisabiliyusri/MANTAP-XRAY ┃          ║" 
+echo "║ ┃ Link Script ┃   ┃ wa.me/6285730123218 ┃  ┃    t.me/arisn29 ┃   
 echo "╚═════════════════════════════════════════════════════════════════╝"
 echo "╔═════════════════════════════════════════════════════════════════╗"
-echo "║                     ┃ XRAY XMENU ┃                                         ║" 
+echo "║                     ┃ XRAY XMENU ┃                              ║" 
 echo "╚═════════════════════════════════════════════════════════════════╝"  
 echo "║ 1. Buat Semua Akun XRAY   ┃ Create Account                       ║"
 echo "║ 2. Hapus Akun XRAY        ┃ Delete Account                       ║"
@@ -42,6 +42,8 @@ echo "║ 13.Hidupkan Ulang VPS     ┃ Reboot                               ║
 echo "║ 14.Keluar Dari Menu       ┃ Exit Menu                            ║"
 echo "║ 15.Info Script            ┃                                      ║"
 echo "║ 16.Auto Pointing Subdomain┃                                      ║"
+echo "║ 17.Backup Script VPS      ┃                                      ║"
+echo "║ 18.Auto Backup Script VPS ┃                                      ║"
 echo "╚═════════════════════════════════════════════════════════════════╝" 
 read -p "     Select From Options [1-69 or x] :  " xmenu
 case $xmenu in 
@@ -92,6 +94,12 @@ cat /root/log-install.txt
 ;;
 16)
 auto-pointing
+;;
+17)
+backup
+;;
+18)
+autobackup
 ;;
 *)
 echo "Input The Correct Number !"
