@@ -9,7 +9,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 yell='\e[1;33m'
 NC='\e[0m'
-echo "XRAY Core Vmess / Vless / Trojan / Shadowsocks"
+echo "XRAY Core Vmess / Vless / Trojan /Grpc
 echo "Trojan"
 echo "Progress..."
 sleep 3
@@ -144,27 +144,6 @@ cat > /etc/xray/config.json << END
               {
                  "password": "${uuid}"
 #trojanws
-              }
-          ],
-         "udp": true
-       },
-       "streamSettings":{
-           "network": "ws",
-           "wsSettings": {
-               "path": "/xraytrojanws"
-            }
-         }
-     },
-    {
-         "listen": "127.0.0.1",
-        "port": "30300",
-        "protocol": "shadowsocks",
-        "settings": {
-           "clients": [
-           {
-           "method": "aes-128-gcm",
-          "password": "${uuid}"
-#ssws
            }
           ],
           "network": "tcp,udp"
@@ -223,26 +202,6 @@ cat > /etc/xray/config.json << END
                {
                  "password": "${uuid}"
 #trojangrpc
-               }
-           ]
-        },
-         "streamSettings":{
-         "network": "grpc",
-           "grpcSettings": {
-               "serviceName": "trojan-grpc"
-         }
-      }
-   },
-   {
-    "listen": "127.0.0.1",
-    "port": "30310",
-    "protocol": "shadowsocks",
-    "settings": {
-        "clients": [
-          {
-             "method": "aes-128-gcm",
-             "password": "${uuid}"
-#ssgrpc
            }
          ],
            "network": "tcp,udp"
