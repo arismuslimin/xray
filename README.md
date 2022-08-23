@@ -1,8 +1,8 @@
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=SCRIPT+XRAY+MANTAP" />
+<img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=SCRIPT+XRAY+MULTIPORT" />
 </p>
 
-# XRAY MANTAP
+# XRAY MULTIPORT
 - ***Script XRAY Multi Port 443/80 By SL***
 - ***SCRIPT UNTUK MEMBUAT SERVER VPN***
 
@@ -39,11 +39,6 @@
 - VMESS GRPC       : **80**
 - VLESS WS         : **80**
 - VLESS GRPC       : **80**
-
-# Aplikasi VPN (Android Only)
-* Link:
-https://github.com/fisabiliyusri/XRAY-FOR-ANDROID
-
 
 # OS 
 - Debian 9 (HVM)
@@ -94,7 +89,7 @@ sudo su
 </p>
 
 ```
-apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
+apt update && apt upgrade -y && update-grub && sleep 2 && reboot
 ```
 - Otomatis Akan Reboot/ Hidupkan Ulang
 3. Login Lagi Ke VPS NYA
@@ -102,14 +97,14 @@ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 - contoh nama domain punya aku,silahkan ganti dengan punya kamu
 ```
 cat >/root/domain <<EOF
-mantapxsl.my.id
+akcelluler.my.id
 EOF
 ```
 - ganti mantapxsl.my.id menjadi nama domain punya kamu
 ```
 mkdir -p /etc/xray
 cat >/etc/xray/domain <<EOF
-mantapxsl.my.id
+akcelluler.my.id
 EOF
 ```
 
