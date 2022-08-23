@@ -25,7 +25,7 @@ wget -O auto-pointing "https://raw.githubusercontent.com/arismuslimin/xray/main/
 wget -O cek-port "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/cek-port.sh"
 wget -O backup "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/backup.sh"
 wget -O autobackup "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/autobackup.sh"
-wget -O backup "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/restore.sh"
+wget -O restore "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/restore.sh"
 wget -O xmenu "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/xmenu.sh"
 
 #
