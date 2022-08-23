@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=SCRIPT+XRAY+MULTIPORT" />
+<img src="[https://readme-typing-svg.herokuapp.com](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaRI4qjg2Sg8J5kfQjilLYlMMu737QVD3caA&usqp=CAU)?color=%2336BCF7&center=true&vCenter=true&lines=SCRIPT+XRAY+MULTI" />
 </p>
 
 # XRAY MULTIPORT
@@ -153,11 +153,11 @@ https://youtu.be/Pwfvwy5Ghcw
 nano /usr/bin/auto-pointing
 ```
 - contoh punya aku
-- tinggal ubah saja yg mantapxsl.my.id menjadi domain punya kamu
+- tinggal ubah saja yg akcelluler.my.id menjadi domain punya kamu
 ```
 DOMAIN=mantapxsl.my.id
-SUB_DOMAIN=onichan-${sub}.mantapxsl.my.id
-NS_DOMAIN=zerosl-${sub}.mantapxsl.my.id
+SUB_DOMAIN=onichan-${sub}.akcelluler.my.id
+NS_DOMAIN=zerosl-${sub}.akcelluler.my.id
 CF_ID=slinfinity69@gmail.com
 CF_KEY=dd2c5e0313f122b3c1833471d469b1025f492
 ```
