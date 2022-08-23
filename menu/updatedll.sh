@@ -18,7 +18,7 @@ wget -O add-akun "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/
 wget -O updatedll "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/updatedll.sh"
 wget -O add-akun "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/add-akun.sh"
 wget -O delete-akun "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/delete-akun.sh"
-wget -O certv2ray "https://raw.githubusercontent.com/arismuslimin/xray/main/xray/menu/certv2ray.sh"
+wget -O certv2ray "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/certv2ray.sh"
 wget -O restart-xray "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/restart-xray.sh"
 wget -O xmenu "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/xmenu.sh"
 wget -O auto-pointing "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/auto-pointing.sh"
