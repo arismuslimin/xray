@@ -35,7 +35,7 @@ echo "║ 6. XRAY UPDATE Core       ┃ 16.Auto Pointing Subdomain          ║"
 echo "║ 7. XRAY UPDATE SCRIPT     ┃ 17.Cek Semua Layanan Port           ║"
 echo "║ 8. Hidupkan Ulang Xray    ┃ 18.Manual Backup                    ║"
 echo "║ 9. Perbarui Sertifikat    ┃ 19.Auto Backup                      ║"
-echo "║ 10.Tambahkan Domain       ┃                                     ║"
+echo "║ 10.Tambahkan Domain       ┃ 20.Restore                          ║"
 echo "╚═════════════════════════════════════════════════════════════════╝" 
 read -p "     Select From Options [1-69 or x] :  " xmenu
 case $xmenu in 
@@ -95,6 +95,9 @@ backup
 ;;
 19)
 autobackup
+;;
+20)
+restore
 ;;
 *)
 echo "Input The Correct Number !"
