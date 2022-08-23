@@ -497,10 +497,6 @@ yellow "xray/Vmess"
 yellow "xray/Vless"
 yellow "xray/Trojan"
 
-sleep 1
-echo -e "[ ${green}ok${NC} ] Install speedtest "
-apt install speedtest-cli
-
 #done
 clear
 #rm -f ins-xray.sh
