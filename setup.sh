@@ -41,7 +41,7 @@ echo "==========================================================================
 echo "" | tee -a log-install.txt
 echo "----------------------------------------------------------------------------" | tee -a log-install.txt
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"  | tee -a log-install.txt
-echo -e "    SCRIPT XRAY Multi Port"  | tee -a log-install.txt
+echo -e "    SCRIPT XRAY Multi Port"           | tee -a log-install.txt
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
