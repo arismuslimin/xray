@@ -18,24 +18,31 @@ fi
 echo -e "IP-VPS          :  $IPVPS"
 echo -e "ISP-VPS         :  $ISPVPS"
 echo "╔═════════════════════════════════════════════════════════════════╗"
-echo "║                     ┃ Script By ARIS ┃                          ║" 
+echo "║                   ┃ Script By aris ┃                            ║" 
 echo "╚═════════════════════════════════════════════════════════════════╝"
 echo "╔═════════════════════════════════════════════════════════════════╗"
-echo "║                   ┃ wa.me/6285730123218 ┃                       ║" 
+echo "║                    ┃ 085730123218 ┃                             ║" 
 echo "╚═════════════════════════════════════════════════════════════════╝"
 echo "╔═════════════════════════════════════════════════════════════════╗"
-echo "║                       ┃ XRAY XMENU ┃                            ║" 
+echo "║                     ┃ XRAY XMENU ┃                              ║" 
 echo "╚═════════════════════════════════════════════════════════════════╝"  
-echo "║ 1. Buat Semua Akun XRAY   ┃ 11.CARA POINTING DOMAIN             ║"
-echo "║ 2. Hapus Akun XRAY        ┃ 12.SPEEDTEST VPS                    ║"
-echo "║ 3. Cek DNS VPS            ┃ 13.REBOOT VPS                       ║"
-echo "║ 4. Cek IP VPS             ┃ 14.Keluar Dari Menu                 ║"
-echo "║ 5. UPDATE_DLL             ┃ 15.Info Script                      ║"
-echo "║ 6. XRAY UPDATE Core       ┃ 16.Auto Pointing Subdomain          ║"
-echo "║ 7. XRAY UPDATE SCRIPT     ┃ 17.Cek Semua Layanan Port           ║"
-echo "║ 8. Hidupkan Ulang Xray    ┃ 18.Manual Backup                    ║"
-echo "║ 9. Perbarui Sertifikat    ┃ 19.Auto Backup                      ║"
-echo "║ 10.Tambahkan Domain       ┃ 20.Restore                          ║"
+echo "║ 1. Buat Semua Akun XRAY   ┃ Create Account                       ║"
+echo "║ 2. Hapus Akun XRAY        ┃ Delete Account                       ║"
+echo "║ 3. Cek Nama Domain        ┃ Domain Name Checker                  ║"
+echo "║ 4. Cek IP Publik          ┃ Check Public IP                      ║"
+echo "║ 5. Update DLL             ┃ Update ETC                           ║"
+echo "║ 6. XRAY UPDATE Core       ┃ Update Core                          ║"
+echo "║ 7. XRAY UPDATE SCRIPT     ┃ Update Script                        ║"
+echo "║ 8. Hidupkan Ulang Xray    ┃ Restart Service XRAY                 ║"
+echo "║ 9. Perbarui Sertifikat    ┃ Update Certificate                   ║"
+echo "║ 10.Tambahkan Domain       ┃ ADD DOMAIN                           ║"
+echo "║ 11.CARA POINTING DOMAIN   ┃                                      ║"
+echo "║ 12.Test Kecepatan Server  ┃ Speedtest Server                     ║"
+echo "║ 13.Hidupkan Ulang VPS     ┃ Reboot                               ║"
+echo "║ 14.Keluar Dari Menu       ┃ Exit Menu                            ║"
+echo "║ 15.Info Script            ┃                                      ║"
+echo "║ 16.Auto Pointing Subdomain┃                                      ║"
+echo "║ 17.Cek Semua Layanan Port ┃ Check All Port Service               ║"
 echo "╚═════════════════════════════════════════════════════════════════╝" 
 read -p "     Select From Options [1-69 or x] :  " xmenu
 case $xmenu in 
@@ -73,7 +80,7 @@ add-domain
 how-pointing
 ;;
 12)
-speedtest-cli
+speedtest
 ;;
 13)
 reboot
@@ -89,15 +96,6 @@ auto-pointing
 ;;
 17)
 cek-port
-;;
-18)
-backup
-;;
-19)
-autobackup
-;;
-20)
-restore
 ;;
 *)
 echo "Input The Correct Number !"
