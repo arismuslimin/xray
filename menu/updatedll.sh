@@ -13,6 +13,7 @@ rm -r updatedll
 
 # download
 cd /usr/bin
+wget -O set-br "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/backup/set-br.sh"
 wget -O add-akun "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/add-akun.sh"
 wget -O updatedll "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/updatedll.sh"
 wget -O add-akun "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/add-akun.sh"
@@ -28,6 +29,7 @@ wget -O xmenu "https://raw.githubusercontent.com/arismuslimin/xray/main/menu/xme
 chmod +x /usr/bin/updatedll
 chmod +x /usr/bin/xmenu
 chmod +x xmenu
+chmod +x set-br
 chmod +x add-akun
 chmod +x delete-akun
 chmod +x updatedll
